@@ -31,14 +31,14 @@ This module provides **automated currency exchange rate updates** in Odoo 18 usi
    ./odoo-bin -u currency_rate_update_custom -d your_db_name
    ```
 
-4. Activate Developer Mode in Odoo and navigate to **Settings > General Settings > Currency Updater (APILayer)**.
+4. Activate Developer Mode in Odoo and navigate to **Settings > General Settings > API Layer Settings**.
 
 ---
 
 ## ⚙️ Configuration
 
 1. Go to **Settings > General Settings**.
-2. Locate the **Currency Updater (APILayer)** section.
+2. Locate the **API Layer Settings** section.
 3. Fill in your APILayer API Key.
 4. Choose the update frequency from the scheduler settings.
 
@@ -50,8 +50,11 @@ You’re set! Your currency rates will now auto-update based on APILayer’s dat
 
 - Currencies will automatically sync during scheduled cron jobs.
 - You can also manually trigger a rate update by navigating to:
-  **Invoicing > Configuration > Currencies**, and clicking **Update Rates**.
-
+  **Invoicing > Configuration > Currency Rates Providers**, 
+  - click **New**,
+  - Select **APILayer Exchange Rates**,
+  - Select from the **Currencies** all currencies you want to update,
+  -  and clicking **Update Rates Now**
 ---
 
 ## 📋 TODO
