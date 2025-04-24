@@ -1,4 +1,3 @@
-Here’s a professional GitHub README tailored for your **Odoo 18 Currency Rate Updater using APILayer**, including a clean structure, installation steps, configuration guide, and a clear TODO list for upcoming features:
 
 ---
 
@@ -81,5 +80,3 @@ We welcome contributions! Please open an issue for bug reports or feature reques
 This module is released under the [GPL-3 License](https://www.odoo.com/documentation/18.0/legal/licenses/licenses.html#odoo-apps).
 
 ---
-
-Let me know if you'd like this in Markdown format for direct copy-paste or if you want to host it under a specific org/account.
